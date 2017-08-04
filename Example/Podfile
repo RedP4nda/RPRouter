@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'RPRouter_Example' do
+  pod 'RPRouter', :path => '../'
+
+  target 'RPRouter_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
