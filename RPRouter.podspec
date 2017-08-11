@@ -12,7 +12,7 @@ Simply route to deep content of your application with RPRouter, navigate from an
   s.author           = { 'mrcloud' => 'florianp37@me.com' }
   s.source           = { :git => 'https://github.com/redp4nda/RPRouter.git', :tag => s.version.to_s }
 
-  s.ios.deployment_target = '8.0'
+  s.ios.deployment_target = '9.0'
 
   s.source_files = 'RPRouter/Classes/**/*'
   s.dependency 'Compass', '~> 5.0.0'
