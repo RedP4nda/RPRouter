@@ -1,0 +1,6 @@
+framework module Pods_RPRouter_Tests {
+  umbrella header "Pods-RPRouter_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

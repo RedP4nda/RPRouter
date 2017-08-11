@@ -1,0 +1,27 @@
+PODS:
+  - Compass (5.0.0)
+  - PluggableApplicationDelegate (0.2.1)
+  - RPFramework (0.9.1):
+    - RPFramework/Core (= 0.9.1)
+  - RPFramework/Core (0.9.1):
+    - PluggableApplicationDelegate (= 0.2.1)
+  - RPRouter (0.1.0):
+    - Compass (~> 5.0.0)
+    - RPFramework (~> 0.9.1)
+
+DEPENDENCIES:
+  - RPRouter (from `../`)
+
+EXTERNAL SOURCES:
+  RPRouter:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  Compass: 1f9c3c3a93dbef2939cccd5608be9d80ea2f197e
+  PluggableApplicationDelegate: de30d4921bffea8a72aec81d704032a567f9b859
+  RPFramework: be500b4d4c401028f5501ce173866b73a6506825
+  RPRouter: 46e6ac3351b699b52474f48501b48d075888ffb7
+
+PODFILE CHECKSUM: 88e3878ed73f0441abdd65624df756bc564fbcab
+
+COCOAPODS: 1.2.0

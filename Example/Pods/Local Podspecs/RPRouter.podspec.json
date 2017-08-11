@@ -1,0 +1,30 @@
+{
+  "name": "RPRouter",
+  "version": "0.1.0",
+  "summary": "A short description of RPRouter.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mrcloud/RPRouter",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mrcloud": "florianp37@me.com"
+  },
+  "source": {
+    "git": "https://github.com/mrcloud/RPRouter.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "RPRouter/Classes/**/*",
+  "dependencies": {
+    "Compass": [
+      "~> 5.0.0"
+    ],
+    "RPFramework": [
+      "~> 0.9.1"
+    ]
+  }
+}
